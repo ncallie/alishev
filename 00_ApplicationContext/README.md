@@ -13,3 +13,5 @@ ApplicationContext.xml -  https://docs.spring.io/spring-framework/docs/4.2.x/spr
 
 ClassPathXmlApplicationContext - обращается к файлу ApplicationContext.xml считывает и помещает все бины в ApplicationContext.
 
+# Полезные материалы
+[baeldung] (https://www.baeldung.com/spring-application-context)
