@@ -10,6 +10,7 @@
 Зависимости:
 1. Spring Core - основная зависимость 
 2. Spring beans - создание экземпляров (beans) класса
+3. Spring Context - хранилище созданных объектов
 
 
 ApplicationContext.xml -  https://docs.spring.io/spring-framework/docs/4.2.x/spring-framework-reference/html/xsd-configuration.html
