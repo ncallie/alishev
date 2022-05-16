@@ -28,4 +28,7 @@
 
 # Полезные материалы
 [baeldung](https://www.baeldung.com/spring-application-context)
+
 [ApplicationContext.xml](https://docs.spring.io/spring-framework/docs/4.2.x/spring-framework-reference/html/xsd-configuration.html)
+
+[otus](https://otus.ru/nest/post/529/)
