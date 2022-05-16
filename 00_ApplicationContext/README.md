@@ -13,5 +13,6 @@
 
 
 ApplicationContext.xml -  https://docs.spring.io/spring-framework/docs/4.2.x/spring-framework-reference/html/xsd-configuration.html
+
 ClassPathXmlApplicationContext - обращается к файлу ApplicationContext.xml считывает и помещает все бины в ApplicationContext.
 
