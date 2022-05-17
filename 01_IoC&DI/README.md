@@ -11,7 +11,7 @@ Ver3 - принимающий класс тоже бин,принимающий 
 
 Ver4 - добавлен scope, init-method, destroy-method
 
-
+Ver5 - добавлен factory-method
 
 
 Полезные материалы:
