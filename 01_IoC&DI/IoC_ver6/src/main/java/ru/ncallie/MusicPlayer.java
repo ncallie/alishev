@@ -5,6 +5,8 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 import java.util.Random;
 
 
@@ -54,5 +56,13 @@ public class MusicPlayer {
         ROCK,
         CLASSICAL,
         POP
+    }
+    @PostConstruct
+    public void turnOn() {
+        System.out.println("Player on");
+    }
+    @PreDestroy
+    public void turnOff() {
+        System.out.println("Player off");
     }
 }
