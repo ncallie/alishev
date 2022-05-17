@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd"> <!-- bean definitions here -->
+    <context:property-placeholder location="classpath:musicPlayer.properties"/>
+
+    <bean id="musicBeanPop" class="${music.bean.Pop}" factory-method="getPopMusic"/>
+    <bean id="musicBeanClassical" class="${music.bean.Classical}" factory-method="getClassicalMusic"/>
+    <bean id="musicBeanRock" class="${music.bean.Rock}" factory-method="getRockMusic"/>
+
+    <bean id="musicPlayer" class="ru.ncallie.MusicPlayer" scope="prototype" init-method="turnOn" destroy-method="turnOff">
+        <property name="music" ref="musicBeanPop"/>
+        <property name="name" value="${musicPlayer.name}"/>
+        <property name="volume" value="${musicPlayer.volume}"/>
+        <property name="musicList">
+            <list>
+                <ref bean="musicBeanPop"/>
+                <ref bean="musicBeanClassical"/>
+                <ref bean="musicBeanRock"/>
+            </list>
+        </property>
+    </bean>
+</beans>
