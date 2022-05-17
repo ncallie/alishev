@@ -13,7 +13,7 @@ Ver4 - добавлен scope, init-method, destroy-method
 
 Ver5 - добавлен factory-method [FactoryMethod](https://github.com/ncallie/Other/tree/main/FactoryMethod)
 
-Ver6 - конфигурация с помощью аннотаций(Component, Autowired, Qualifier, Value)
+Ver6 - конфигурация с помощью аннотаций(Component, Autowired, Qualifier, Value, Scope, PustConstruct, PreDestroy)
 
 
 Полезные материалы:
