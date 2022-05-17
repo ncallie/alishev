@@ -13,6 +13,8 @@ Ver4 - добавлен scope, init-method, destroy-method
 
 Ver5 - добавлен factory-method [FactoryMethod](https://github.com/ncallie/Other/tree/main/FactoryMethod)
 
+Ver6 - конфигурация с помощью аннотаций(Component, Autowired, Qualifier, Value)
+
 
 Полезные материалы:
 [1](https://www.baeldung.com/spring-dependency-injection#:~:text=Dependency%20Injection%20is%20a%20fundamental,managing%20components%20onto%20the%20container.)
