@@ -32,4 +32,8 @@ create table Person(
     age int,
     email varchar
 )
+insert into person(name, age, email) values('Tom', 18, 'tom@mail.com');
+insert into person(name, age, email) values('Bob', 21, 'bob@mail.com');
+insert into person(name, age, email) values('Mike', 42, 'mke@mail.com');
+insert into person(name, age, email) values('Katy', 14, 'katy@mail.com');
 ```
