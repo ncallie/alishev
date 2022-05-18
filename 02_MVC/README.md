@@ -1,7 +1,8 @@
 ## Версии
 - MVC_App_1 - конфигурация с помощью web.xml. Добавлен maping /hello-world.
 - MVC_App_2 - конфигурация с помощью jav-code(SpringConfig + DispatcherServlet)
-- MVC_App_3 - добавленно несколько GetMapping и RequestMapping
+- MVC_App_3 - добавленно несколько аннотаций GetMapping и RequestMapping
+- MVC_App_3 - простой калькулятор считывающий параметры из RequestParam и передающий результат в Model(/calculator)
 
 Стек:
 1. Spring MVC
