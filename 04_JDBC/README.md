@@ -20,3 +20,16 @@ insert into person values (1, 'Mike', 42, 'mke@mail.com');
 insert into person values (1, 'Katy', 14, 'katy@mail.com');
 ```
 
+```
+create sequence first_sequence //обьект выдает целые числа по порядку
+select nextval('first_sequence')
+```
+
+```
+create table Person(
+    id SERIAL, //псевдотип (создает sequence (название таблицы_id_sequence))
+    name varchar,
+    age int,
+    email varchar
+)
+```
