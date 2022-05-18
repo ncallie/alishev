@@ -1,4 +1,11 @@
 # MVC
+Стек:
+1. Spring MVC
+2. Tomcat ver.9
+
+- MVC_App_1 - конфигурация с помощью web.xml. Добавлен maping /hello-world.
+- MVC_App_2 - конфигурация с помощью jav-code(SpringConfig + DispatcherServlet)
+
 
 MVC(Model-View-Controller)
 
@@ -12,9 +19,9 @@ MVC(Model-View-Controller)
 
 DispatcherServlet - входная точка в приложение. (отправляет http запрос на правильный контроллер)
 
-Стек:
-1. Spring MVC
-2. Tomcat ver.9
-
-- MVC_App_1 - конфигурация с помощью web.xml. Добавлен maping /hello-world.
-- MVC_App_2 - конфигурация с помощью jav-code(SpringConfig + DispatcherServlet)
+Маппинги:
+1. @GetMapping
+2. @PostMapping
+3. @PutMapping
+4. @DeleteMapping
+5. @PatchMapping
