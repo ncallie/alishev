@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+<h2>Calculator</h2>
+<h3>
+    Введите в адресную строку параметры в формате ключ=значение
+    <br>
+    Пример: "/calculator?a=5&b=10&action=multiplication"
+    <br>
+    Опиреации:
+    <ul>
+        <li>multiplication</li>
+        <li>addition</li>
+        <li>subtraction</li>
+        <li>division</li>
+    </ul>
+</h3>
+<p th:text="${result}"></p>
+</body>
+</html>
