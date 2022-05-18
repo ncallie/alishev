@@ -5,6 +5,7 @@
 
 - MVC_App_1 - конфигурация с помощью web.xml. Добавлен maping /hello-world.
 - MVC_App_2 - конфигурация с помощью jav-code(SpringConfig + DispatcherServlet)
+- MVC_App_3 - добавленно несколько GetMapping и RequestMapping
 
 
 MVC(Model-View-Controller)
@@ -20,7 +21,9 @@ MVC(Model-View-Controller)
 DispatcherServlet - входная точка в приложение. (отправляет http запрос на правильный контроллер)
 
 Маппинги:
-1. @GetMapping - get-запросы
+@RequestMapping(префикс) - все методы в контроллере имели префикс.
+
+1. @GetMapping - get-запросы (@RequestMapping(method=RequestMethod.GET))
 2. @PostMapping
 3. @PutMapping
 4. @DeleteMapping
