@@ -47,4 +47,10 @@ create table Person(
     email varchar
 )
 ```
+Ограничения
+1. NOT NULL
+2. UNIQUE
+3. PRIMARY KEY (NOT NULL + UNIQUE) (идентификатор строки)
+4. FOREIGN KEY
+5. CHECK - ограничения на значения (age int CHECK (age > 0))
 
