@@ -20,11 +20,11 @@ MVC(Model-View-Controller)
 
 DispatcherServlet - входная точка в приложение. (отправляет http запрос на правильный контроллер)
 
-Маппинги:
+Маппинги: (что хочет сделать клиент?)
 @RequestMapping(префикс) - все методы в контроллере имели префикс.
 
-1. @GetMapping - get-запросы (@RequestMapping(method=RequestMethod.GET))
-2. @PostMapping
+1. @GetMapping - get-запросы (@RequestMapping(method=RequestMethod.GET)) (идемпотентный) (но можно помещать параметры после ?key=value&kay=value)
+2. @PostMapping - post-запросы 
 3. @PutMapping
 4. @DeleteMapping
 5. @PatchMapping
