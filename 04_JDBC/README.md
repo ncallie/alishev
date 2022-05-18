@@ -2,7 +2,7 @@
 - jdbc_app_1 - реализованно подключение через JDBC API к БД(PostgreSQL), id у всех пользователей на данный момент 1
 - jdbc_app_2 - JDBC API заменено на JdbcTemplate;
 - jdbc_app_3 - добавлен файл properties
-- jdbc_app_4 - Batch Update
+- jdbc_app_4(тестовая версия) - Batch Update
 # JDBC
 <img width="500" alt="Screen Shot 2022-05-18 at 7 39 36 PM" src="https://user-images.githubusercontent.com/92088165/169096374-aec3d858-2051-493f-af29-7857940cd7ef.png">
 
