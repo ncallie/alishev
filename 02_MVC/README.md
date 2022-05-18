@@ -24,7 +24,7 @@ DispatcherServlet - входная точка в приложение. (отпр
 @RequestMapping(префикс) - все методы в контроллере имели префикс.
 
 1. @GetMapping - get-запросы (@RequestMapping(method=RequestMethod.GET)) (идемпотентный) (но можно помещать параметры после ?key=value&kay=value)
-2. @PostMapping - post-запросы 
+2. @PostMapping - post-запросы (изменяем/добавляем что-то на сервере)
 3. @PutMapping
 4. @DeleteMapping
 5. @PatchMapping
@@ -32,6 +32,8 @@ DispatcherServlet - входная точка в приложение. (отпр
 # HTTP
 <img width="500" alt="Screen Shot 2022-05-18 at 1 51 47 PM" src="https://user-images.githubusercontent.com/92088165/169022644-80e0cf0d-753d-4ca6-8a87-eeeb40e97a82.png">
 <img width="500" alt="Screen Shot 2022-05-18 at 1 53 36 PM" src="https://user-images.githubusercontent.com/92088165/169022905-b352180d-2348-4653-9fd4-3094ce09f609.png">
+<img width="500" alt="Screen Shot 2022-05-18 at 2 01 46 PM" src="https://user-images.githubusercontent.com/92088165/169024216-be01edcc-c510-4971-b86d-7860b3cf63ce.png">
+
 
 
 
