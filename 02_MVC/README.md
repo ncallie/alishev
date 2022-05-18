@@ -10,7 +10,7 @@
 
 MVC(Model-View-Controller)
 
-<img width="531" alt="Screen Shot 2022-05-18 at 11 53 10 AM" src="https://user-images.githubusercontent.com/92088165/168999257-1f73fa44-b229-46da-bd9b-7fd081c18913.png">
+<img width="500" alt="Screen Shot 2022-05-18 at 11 53 10 AM" src="https://user-images.githubusercontent.com/92088165/168999257-1f73fa44-b229-46da-bd9b-7fd081c18913.png">
 
 Клиент через браузер отправляет http запрос, принимаем его на controller, после controller через Model общается с БД и полученные данные отображает View
 
@@ -28,3 +28,11 @@ DispatcherServlet - входная точка в приложение. (отпр
 3. @PutMapping
 4. @DeleteMapping
 5. @PatchMapping
+
+## HTTP
+<img width="500" alt="Screen Shot 2022-05-18 at 1 51 47 PM" src="https://user-images.githubusercontent.com/92088165/169022644-80e0cf0d-753d-4ca6-8a87-eeeb40e97a82.png">
+<img width="500" alt="Screen Shot 2022-05-18 at 1 53 36 PM" src="https://user-images.githubusercontent.com/92088165/169022905-b352180d-2348-4653-9fd4-3094ce09f609.png">
+
+
+
+
