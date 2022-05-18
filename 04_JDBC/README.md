@@ -51,7 +51,7 @@ create table Person(
 1. NOT NULL
 2. UNIQUE
 3. PRIMARY KEY (NOT NULL + UNIQUE) (идентификатор строки)
-4. FOREIGN KEY
+4. FOREIGN KEY внешний ключ (связующий элемент)
 5. CHECK - ограничения на значения (age int CHECK (age > 0))
 
 ```
@@ -62,4 +62,3 @@ create table Person(
     email varchar UNIQUE NOT NULL
 )
 ```
-
