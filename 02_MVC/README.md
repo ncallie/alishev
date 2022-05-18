@@ -33,12 +33,5 @@ DispatcherServlet - входная точка в приложение. (отпр
 <img width="500" alt="Screen Shot 2022-05-18 at 1 51 47 PM" src="https://user-images.githubusercontent.com/92088165/169022644-80e0cf0d-753d-4ca6-8a87-eeeb40e97a82.png">
 <img width="500" alt="Screen Shot 2022-05-18 at 1 53 36 PM" src="https://user-images.githubusercontent.com/92088165/169022905-b352180d-2348-4653-9fd4-3094ce09f609.png">
 <img width="500" alt="Screen Shot 2022-05-18 at 2 01 46 PM" src="https://user-images.githubusercontent.com/92088165/169024216-be01edcc-c510-4971-b86d-7860b3cf63ce.png">
-<img width="500" alt="Screen Shot 2022-05-18 at 2 04 24 PM" src="https://user-images.githubusercontent.com/92088165/169024645-c34f8440-db87-4d90-98d1-a59f32ea8bbc.png">
+<img width="500" alt="Screen Shot 2022-05-18 at 2 04 24 PM" src="https://user-images.githubusercontent.com/92088165/169024645-c34f8440-db87-4d90-98d1-a59f32ea8bbc.png"> 
 <img width="500" alt="Screen Shot 2022-05-18 at 2 06 26 PM" src="https://user-images.githubusercontent.com/92088165/169024966-bd4a9dc8-c9ac-445c-8cae-632902a81738.png">
-
-
-
-
-
-
-
