@@ -7,5 +7,9 @@ create table Person (
     name varchar,
     age int,
     email varchar
-)
+);
+insert into person values (1, 'Tom', 18, 'tom@mail.com');
+insert into person values (1, 'Bob', 21, 'bob@mail.com');
+insert into person values (1, 'Mike', 42, 'mke@mail.com');
+insert into person values (1, 'Katy', 14, 'katy@mail.com');
 ```
