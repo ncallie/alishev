@@ -20,7 +20,7 @@ MVC(Model-View-Controller)
 DispatcherServlet - входная точка в приложение. (отправляет http запрос на правильный контроллер)
 
 Маппинги:
-1. @GetMapping
+1. @GetMapping - get-запросы
 2. @PostMapping
 3. @PutMapping
 4. @DeleteMapping
