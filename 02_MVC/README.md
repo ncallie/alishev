@@ -16,3 +16,4 @@ MVC_App_1 - конфигурация с помощью web.xml. Добавлен
 <br>Стек:
 Spring MVC (web.xml + appContextMVC.xml)
 Tomcat ver.9
+MVC_App_2 - конфигурация с помощью jav-code(SpringConfig + DispatcherServlet)
