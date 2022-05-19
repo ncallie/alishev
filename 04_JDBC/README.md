@@ -106,3 +106,21 @@ create table Actor_Movie( //многие к многим
 ```
 
 table1 JOIN table1_table2 JOIN table2
+# индексы в PostgreSQ
+```
+CREATE INDEX ON Transaction(amount) USING ???
+```
+- PRIMARY KEY
+- B-Tree Index
+- Hash Index
+- Gin & Gist Index
+- BRIN Index
+
+# Каскадирование
+При наличии связей DELETE не сработает, 
+```
+user_id int REFERENCES Person(user_id) ON DELETE ???
+```
+- CASCADE - удаляет строки в зависимой таблице при удалении связанных строк в главной таблице
+- SET NULL - вставляет значение внешнего ключа равным NULL при удалении строк в главной таблице
+- RESTRICT - поведение по умочанию (т.е ошибка)
