@@ -1,4 +1,4 @@
-#Версии
+# Версии
 - jdbc_app_1 - реализованно подключение через JDBC API к БД(PostgreSQL), id у всех пользователей на данный момент 1
 - jdbc_app_2 - JDBC API заменено на JdbcTemplate;
 - jdbc_app_3 - добавлен файл properties
@@ -76,7 +76,7 @@ Many to Many (через Join Table (Составной PK - (Fk, FK))
 
 <img width="500" alt="Screen Shot 2022-05-19 at 12 08 42 PM" src="https://user-images.githubusercontent.com/92088165/169257476-f2535d0e-534b-485f-ac93-bc40290e2c0b.png">
 
-Слияние:
+# Слияние
 - Inner Join ```SELECT * FROM Person JOIN Order ON Person.user_id = Order.user_id;``` (если пара не найдена строка не отоброзится)
 - Outer Join. 
 - - Left Join ```SELECT * FROM Person LEFT JOIN Order ON Person.user_id = Order.user_id;``` (если пара не найдена, отобразит (null))
