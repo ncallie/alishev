@@ -20,3 +20,17 @@ insert into item(person_id, item_name) VALUES (3, 'Kindle');
 insert into item(person_id, item_name) VALUES (3, 'TV');
 insert into item(person_id, item_name) VALUES (3, 'PlayStation');
 ```
+# Жизненный цикл сущности
+
+<img width="500" alt="Снимок экрана 2022-05-21 в 15 52 32" src="https://user-images.githubusercontent.com/92088165/169652474-bbc99598-678c-4b28-a02c-b055ecc0e271.png">
+
+<img width="500" alt="Снимок экрана 2022-05-21 в 15 52 54" src="https://user-images.githubusercontent.com/92088165/169652475-3cc5cc87-67d9-46c5-868e-40a0e007d282.png">
+
+<img width="500" alt="Снимок экрана 2022-05-21 в 15 53 25" src="https://user-images.githubusercontent.com/92088165/169652479-ddbba7b9-1f69-41da-b03b-7260c26cf682.png">
+
+<img width="500" alt="Снимок экрана 2022-05-21 в 15 53 55" src="https://user-images.githubusercontent.com/92088165/169652483-8b699277-b844-424a-96c0-254b0ee8b85c.png">
+
+<img width="500" alt="Снимок экрана 2022-05-21 в 15 54 13" src="https://user-images.githubusercontent.com/92088165/169652487-cd6f4734-8f79-432a-bd99-401d2dc7bc90.png">
+
+<img width="500" alt="Снимок экрана 2022-05-21 в 15 54 37" src="https://user-images.githubusercontent.com/92088165/169652494-d3f00c9f-7934-485e-b758-29be4456fbfd.png">
+
