@@ -8,6 +8,7 @@
 
 <img width="500" alt="Снимок экрана 2022-05-21 в 14 37 36" src="https://user-images.githubusercontent.com/92088165/169649998-a7ca2280-66e7-4a7f-b0bc-6da558a6a995.png">
 
+<img width="500" alt="Снимок экрана 2022-05-21 в 16 54 02" src="https://user-images.githubusercontent.com/92088165/169655204-c4e00fb8-6d74-44e0-832a-3efc547e66c8.png">
 
 ```
 insert into person(name, age) VALUES ('Tom', 34);
