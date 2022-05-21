@@ -7,9 +7,9 @@
 
 
 ```
-insert into person(name, age) VALUES ('Tom, 34');
-insert into person(name, age) VALUES ('Dom, 24');
-insert into person(name, age) VALUES ('Mom, 87');
+insert into person(name, age) VALUES ('Tom', 34);
+insert into person(name, age) VALUES ('Dom', 24);
+insert into person(name, age) VALUES ('Mom', 87);
 ```
 
 ```
