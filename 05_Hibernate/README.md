@@ -37,3 +37,5 @@ insert into item(person_id, item_name) VALUES (3, 'PlayStation');
 
 <img width="500" alt="Снимок экрана 2022-05-21 в 15 54 37" src="https://user-images.githubusercontent.com/92088165/169652494-d3f00c9f-7934-485e-b758-29be4456fbfd.png">
 
+## Doc
+[Session](https://docs.jboss.org/hibernate/orm/6.0/javadocs/org/hibernate/Session.html#flush())
